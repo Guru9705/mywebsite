@@ -40,6 +40,7 @@
        }
        #sal{
            margin-left: 300px;
+           display: flex;
        }
        .sal-text{
            color:red;
@@ -47,25 +48,21 @@
            font-size: 30px;
        }
        .sal-desc{
-           margin-left:120px;
+           margin-left:20px;
            margin-bottom: 50px;
        }
        #ken-den{
            background-color:#e65c00;
+           display: flex;
+           padding: 20px;
            margin-left: 12%;
-           height: 100px;
+           height: 90px;
            width:69%;
        }
-       .ken-desc{
-           margin-top:10px;
-           width:250px;
-       }
-       .den-desc{
-        border-left: 6px solid black;
-        height: 100px;
-        margin-top:10px;
-        margin-bottom: 15px;
-       }
+     .den-desc{
+         text-align: right;
+         width:50%;
+     }
     </style>
 </head>
 <body>
@@ -85,36 +82,31 @@
       
     </div><br/><br/><br/>
     <div id="sal">
+         <img height="120px" src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/khan.jpg"> 
            <div class="sal-desc">
                     <b class="sal-text">Sal Khan</b>
                     <p>
-                        Salman Khan is the founder of the Khan Academy which has the mission of providing free world-class education for anyone,anywhere.
+                        Salman Khan is the founder of the Khan Academy which has the mission of <br/>
+                        providing free world-class education for anyone,anywhere.
                     </p>
                 </div>
-                <img height="120px" src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/khan.jpg"> 
     </div>
     <br/><br/>
-   <!-- <table id="ken-den">
-       <tr>
-           <td>
-               <div class="ken-desc">
-                   <p style="color: white;margin-left: 30px;font-size: 25px;margin-top: 3px;margin-bottom: 3px;">Ken Thompson</p>
-                   <p style="color: black;margin-left: 30px;">
-                       Designed and implemented the original Unix operating system.
-                   </p>
-               </div>
-           </td>
-           <td style="width: 3px;background-color: black;"></td>
-           <td>
+   <div id="ken-den">
+     <div style="width:50%;border-right: 5px solid black;">    
+    <div style="color: white;font-size: 25px;">Ken Thompson</div>
+                   <p style="color: black;margin-top:12px">
+                       Designed and implemented the<br/>
+                       original Unix operating system.
+                   </p>      
+    </div>          
             <div class="den-desc">
-                <p style="color: white;font-size: 25px;text-align: right;margin-right: 22px;margin-bottom: 10px;">Dennis Ritchie</p>
-                <p style="color: black;text-align: right;margin-right: 18px;">
+                <p style="color: white;font-size: 25px;margin-top: 4px;">Dennis Ritchie</p>
+                <p style="color: black;">
                     The creator of C programming language.
                 </p>
             </div>  
-           </td>
-       </tr>
-   </table> -->
+    
    
 </body>
 </html>
